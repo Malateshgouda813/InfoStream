@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { getNews } from "./services/api";
 
-const BACKEND_URL = "https://infostream-lqqv.onrender.com"; // ✅ your deployed backend
-
 function App() {
   const [articles, setArticles] = useState([]);
   const [search, setSearch] = useState("");
@@ -36,7 +34,7 @@ function App() {
       
       {/* Header */}
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-6">
-        📰 InfoStream
+        📰 AI News App
       </h1>
 
       {/* Search */}
