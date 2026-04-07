@@ -6,7 +6,7 @@ InfoStream is a modern news web app that delivers real-time updates across multi
 
 ## Preview
 
-![App Preview](https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200)
+![App Preview](https://github.com/Malateshgouda813/InfoStream/blob/55e4be682062a0e1b0802f08e676c61ed27507d4/home...png)
 
 
 ##  Features
