@@ -15,6 +15,13 @@ app.use(express.json());
 // 🤖 Gemini setup
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
+app.get("/", (req, res) => {
+  res.send("🚀 InfoStream Backend Running");
+});
+
+
+
+
 // 📌 Summarize API
 app.post("/summarize", async (req, res) => {
   try {
